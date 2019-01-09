@@ -89,13 +89,13 @@ Conventional_scores_regression.m - This runs logistic regression on each of the 
 
 The machine learning models are in the following scripts:
 
-Model1_DecisionTrees.m
-Model2_LinearDiscriminant.m
-Model3_LogisticRegression.m
-Model4_SupportVectors.m
-Model5_NearestNeighbors.m
-Model6_BoostedTrees.m
-Model7_BaggedTrees.m
+Model1_DecisionTrees.m,
+Model2_LinearDiscriminant.m,
+Model3_LogisticRegression.m,
+Model4_SupportVectors.m,
+Model5_NearestNeighbors.m,
+Model6_BoostedTrees.m,
+Model7_BaggedTrees.m, and
 Model8_ClassificationNeuralNet.m
 
 The output of each routine is a table of AUCs for each of the three outcome classes, with pointwise confidence intervals. Modeling parameters can be selected for many of these; see Link to documentation for models above.  The paper lists the parameters used by the authors in Supplemental Table 6. It should be kept in mind that the output varies slightly with each run of these models because of the cross-validation procedure, and in some cases because of other uses of random sampling within the routines.
