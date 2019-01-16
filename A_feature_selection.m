@@ -12,7 +12,7 @@
 %     neighbors.
 
 %Three outcomes were defined: all deaths, coronary artery disease deaths,
-%and CHD deaths plus myocardial infarctions. The variable numbering 1
+%and CHD deaths plus myocardial infarctions. The numbering of variables from 1
 %through 3 generallly refers to these three outcomes.
 
 %load data from a 6892 x 72 table: CCTAdataAugust2018.mat
