@@ -62,11 +62,11 @@
     disp(NeuralNet_results_table)
     NeuralNet_scores_and_outcomes=[scores_NN1 alldeaths scores_NN2 CHDdeaths scores_NN3 CHDMIdeaths];
 
-% % Save
-%     save('results/NeuralNet_results_table','NeuralNet_results_table')    
-%     writetable(NeuralNet_results_table,'results/NeuralNet_results_table')
-%     save('results/NeuralNet_scores_and_outcomes','NeuralNet_scores_and_outcomes')
-%     csvwrite('results/NeuralNet_scores_and_outcomes.csv',NeuralNet_scores_and_outcomes,1)
+ % Save
+     save('results/NeuralNet_results_table','NeuralNet_results_table')    
+     writetable(NeuralNet_results_table,'results/NeuralNet_results_table')
+     save('results/NeuralNet_scores_and_outcomes','NeuralNet_scores_and_outcomes')
+     csvwrite('results/NeuralNet_scores_and_outcomes.csv',NeuralNet_scores_and_outcomes,1)
     
     
 function [response,MLscores,X_NN,Y_NN,T_NN,AUC_NN]=nn_classification(features,outcomes,bootstrapping)
